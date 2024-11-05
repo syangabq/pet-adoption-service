@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Sandy",
+      "last_name": "Jones",
+      "email": "sandyjones@example.com",
+      "phone": "123-456-7890",
+      "availability": "foster",
+      "interested_in": "cats"
+    },
+    {
+      "id": 2,
+      "first_name": "Todd",
+      "last_name": "Edwards",
+      "email": "t.edwards@example.com",
+      "phone": "333-444-5555",
+      "availability": "adopt",
+      "interested_in": "both"
+    },
+    {
+      "id": 3,
+      "first_name": "Amber",
+      "last_name": "Cross",
+      "email": "across@example.com",
+      "phone": "456-333-8899",
+      "availability": "both",
+      "interested_in": "cats"
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "name": "Cheetah",
+      "type": "cat",
+      "breed": "Domestic shorthair",
+      "age": "2 years",
+      "color": "orange",
+      "personality": "mellow",
+      "status": "fostered",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Rufus",
+      "type": "dog",
+      "breed": "Husky",
+      "age": "6 months",
+      "color": "grey",
+      "personality": "friendly",
+      "status": "unclaimed",
+      "user_id": null
+    },
+    {
+      "id": 3,
+      "name": "Mimi",
+      "type": "cat",
+      "breed": "Domestic shorthair",
+      "age": "7 years",
+      "color": "black",
+      "personality": "shy",
+      "status": "unclaimed",
+      "user_id": null
+    }
+  ]
+}
