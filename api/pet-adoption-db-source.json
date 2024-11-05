@@ -6,7 +6,6 @@
       "last_name": "Jones",
       "email": "sandyjones@example.com",
       "phone": "123-456-7890",
-      "availability": "foster",
       "interested_in": "cats"
     },
     {
@@ -15,7 +14,6 @@
       "last_name": "Edwards",
       "email": "t.edwards@example.com",
       "phone": "333-444-5555",
-      "availability": "adopt",
       "interested_in": "both"
     },
     {
@@ -24,7 +22,6 @@
       "last_name": "Cross",
       "email": "across@example.com",
       "phone": "456-333-8899",
-      "availability": "both",
       "interested_in": "cats"
     }
   ],
@@ -37,7 +34,7 @@
       "age": "2 years",
       "color": "orange",
       "personality": "mellow",
-      "status": "fostered",
+      "status": "adopted",
       "user_id": 1
     },
     {
@@ -48,7 +45,7 @@
       "age": "6 months",
       "color": "grey",
       "personality": "friendly",
-      "status": "unclaimed",
+      "status": "available",
       "user_id": null
     },
     {
@@ -59,7 +56,7 @@
       "age": "7 years",
       "color": "black",
       "personality": "shy",
-      "status": "unclaimed",
+      "status": "available",
       "user_id": null
     }
   ]
