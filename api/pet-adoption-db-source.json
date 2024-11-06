@@ -23,6 +23,14 @@
       "email": "across@example.com",
       "phone": "456-333-8899",
       "interested_in": "cats"
+    },
+    {
+      "id": 4,
+      "first_name": "Fiona",
+      "last_name": "Burns",
+      "email": "fionab@example.com",
+      "phone": "222-333-4455",
+      "interested_in": "dogs"
     }
   ],
   "pets": [
@@ -56,6 +64,17 @@
       "age": "7 years",
       "color": "black",
       "personality": "shy",
+      "status": "available",
+      "user_id": null
+    },
+    {
+      "id": 4,
+      "name": "Fred",
+      "type": "dog",
+      "breed": "Poodle",
+      "age": "2 years",
+      "color": "brown",
+      "personality": "friendly",
       "status": "available",
       "user_id": null
     }
