@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Sandy",
+      "last_name": "Jones",
+      "email": "sandyjones@example.com",
+      "phone": "123-456-7890",
+      "interested_in": "cats"
+    },
+    {
+      "id": 2,
+      "first_name": "Todd",
+      "last_name": "Edwards",
+      "email": "t.edwards@example.com",
+      "phone": "333-444-5555",
+      "interested_in": "both"
+    },
+    {
+      "id": 3,
+      "first_name": "Amber",
+      "last_name": "Cross",
+      "email": "across@example.com",
+      "phone": "456-333-8899",
+      "interested_in": "cats"
+    },
+    {
+      "id": 4,
+      "first_name": "Fiona",
+      "last_name": "Burns",
+      "email": "fionab@example.com",
+      "phone": "222-333-4455",
+      "interested_in": "dogs"
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "name": "Cheetah",
+      "type": "cat",
+      "breed": "Domestic shorthair",
+      "age": "2 years",
+      "color": "orange",
+      "personality": "mellow",
+      "status": "adopted",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Rufus",
+      "type": "dog",
+      "breed": "Husky",
+      "age": "6 months",
+      "color": "grey",
+      "personality": "friendly",
+      "status": "available",
+      "user_id": null
+    },
+    {
+      "id": 3,
+      "name": "Mimi",
+      "type": "cat",
+      "breed": "Domestic shorthair",
+      "age": "7 years",
+      "color": "black",
+      "personality": "shy",
+      "status": "available",
+      "user_id": null
+    },
+    {
+      "id": 4,
+      "name": "Fred",
+      "type": "dog",
+      "breed": "Poodle",
+      "age": "2 years",
+      "color": "brown",
+      "personality": "friendly",
+      "status": "available",
+      "user_id": null
+    }
+  ]
+}
