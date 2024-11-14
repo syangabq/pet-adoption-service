@@ -6,7 +6,7 @@ has_toc: false
 
 # API Reference
 
-The Pet Adoption service API is a REST API with the following resources:
+The Pet Adoption Service API is a REST API with the following resources:
 
 * [User](user/index.md)
 * [Pet](pet/index.md)
