@@ -1,6 +1,6 @@
 # pet-adoption-service
 
-For the REST API docs, see the [Pet Adoption service docs](https://syangabq.github.io/pet-adoption-service/).
+For the REST API docs, see the [Pet Adoption Service docs](https://syangabq.github.io/pet-adoption-service/).
 
 ## Proposed Information Architecture
 
