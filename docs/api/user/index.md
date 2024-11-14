@@ -1,6 +1,8 @@
 ---
 title: User
-nav_order: 2
+parent: API Reference
+nav_order: 1
+has_toc: false
 ---
 
 # `user` resource
@@ -13,7 +15,7 @@ Base endpoint:
 
 Contains information about users of the service.
 
-To adopt a pet in the service, the user must first be added to the service. Learn more about the [pet resource](pet.md).
+To adopt a pet in the service, the user must first be added to the service. Learn more about the [pet resource](../pet/index.md).
 
 ## Resource properties
 
