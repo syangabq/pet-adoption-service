@@ -5,9 +5,7 @@ For the REST API docs, see the [Pet Adoption Service docs](https://syangabq.gith
 ## Proposed Information Architecture
 
 * Overview
-* Installation
 * Quickstart
-    * Enroll your first user
 * Tutorials
     * Enroll a new user
     * Add a new pet
@@ -27,3 +25,4 @@ For the REST API docs, see the [Pet Adoption Service docs](https://syangabq.gith
         * Add a new pet
         * Update a pet's adoption status
         * Delete a pet
+* Support
