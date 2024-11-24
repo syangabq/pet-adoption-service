@@ -6,7 +6,10 @@ nav_order: 4
 
 # Update user's interest
 
-**PATCH** `/users/{id}`
+PATCH
+{: .label .label-purple .ml-0 }
+`/users/{id}`
+{: .d-inline-block }
 
 Update the `interested_in` property of the [`user`](index.md) in the service with the specified `id`.
 

@@ -6,7 +6,10 @@ nav_order: 1
 
 # Get all pets
 
-**GET** `/pets`
+GET
+{: .label .label-blue .ml-0 }
+`/pets`
+{: .d-inline-block }
 
 Get all [`pets`](index.md) that have been added to the service.
 

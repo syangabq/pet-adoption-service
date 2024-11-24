@@ -6,7 +6,10 @@ nav_order: 3
 
 # Enroll user
 
-**POST** `/users`
+POST
+{: .label .label-green .ml-0 }
+`/users`
+{: .d-inline-block }
 
 Enroll a [`user`](index.md) in the service.
 
@@ -67,12 +70,12 @@ Provide a JSON object with the following properties:
 
 ```js
 {
-    "first_name": "Martha",
-    "last_name": "Smith",
-    "email": "msmith@example.com",
-    "phone": "987-654-3210",
-    "interested_in": "both",
-    "id": 5
+  "first_name": "Martha",
+  "last_name": "Smith",
+  "email": "msmith@example.com",
+  "phone": "987-654-3210",
+  "interested_in": "both",
+  "id": 5
 }
 ```
 

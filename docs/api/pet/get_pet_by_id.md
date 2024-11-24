@@ -6,7 +6,10 @@ nav_order: 2
 
 # Get pet by ID
 
-**GET** `/pets/{id}`
+GET
+{: .label .label-blue .ml-0 }
+`/pets/{id}`
+{: .d-inline-block }
 
 Get the [`pet`](index.md) in the service with the specified `id`.
 

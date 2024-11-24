@@ -6,7 +6,10 @@ nav_order: 3
 
 # Add pet
 
-**POST** `/pets`
+POST
+{: .label .label-green .ml-0 }
+`/pets`
+{: .d-inline-block }
 
 Add a [`pet`](index.md) to the service.
 

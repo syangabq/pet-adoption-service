@@ -6,7 +6,10 @@ nav_order: 1
 
 # Get all users
 
-**GET** `/users`
+GET
+{: .label .label-blue .ml-0 }
+`/users`
+{: .d-inline-block }
 
 Get all [`users`](index.md) that have been enrolled in the service.
 
