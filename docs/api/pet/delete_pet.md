@@ -6,7 +6,10 @@ nav_order: 5
 
 # Delete pet
 
-**DELETE** `/pets/{id}`
+DELETE
+{: .label .label-yellow .ml-0 }
+`/pets/{id}`
+{: .d-inline-block }
 
 Delete the [`pet`](index.md) in the service with the specified `id`.
 

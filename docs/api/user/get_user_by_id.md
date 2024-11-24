@@ -6,7 +6,10 @@ nav_order: 2
 
 # Get user by ID
 
-**GET** `/users/{id}`
+GET
+{: .label .label-blue .ml-0 }
+`/users/{id}`
+{: .d-inline-block }
 
 Get the [`user`](index.md) in the service with the specified `id`.
 

@@ -6,7 +6,10 @@ nav_order: 4
 
 # Update pet's adoption status
 
-**PATCH** `/pets/{id}`
+PATCH
+{: .label .label-purple .ml-0 }
+`/pets/{id}`
+{: .d-inline-block }
 
 Update the adoption status of the [`pet`](index.md) in the service with the specified `id`.
 

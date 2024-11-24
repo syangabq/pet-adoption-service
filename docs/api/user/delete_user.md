@@ -6,7 +6,10 @@ nav_order: 5
 
 # Delete user
 
-**DELETE** `/users/{id}`
+DELETE
+{: .label .label-yellow .ml-0 }
+`/users/{id}`
+{: .d-inline-block }
 
 Delete the [`user`](index.md) in the service with the specified `id`.
 
