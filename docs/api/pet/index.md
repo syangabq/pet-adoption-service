@@ -13,6 +13,9 @@ Base endpoint:
 {base_url}/pets
 ```
 
+{: .note }
+The `{base_url}` value depends on the installation of the service. When run locally for testing, the `{base_url}` is generally `http://localhost:3000`.
+
 Contains information about pets in the service.
 
 To adopt a pet in the service, the user must first be added to the service. Learn more about the [user resource](../user/index.md).
