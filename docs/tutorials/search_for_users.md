@@ -16,12 +16,7 @@ Make sure you have completed the [Get started](../get_started.md) quickstart on 
 
 ## Search for users
 
-1. In a command-line tool, run the following command to start your local Pet Adoption Service, if it's not already running. Replace `<your-github-workspace>` with the directory that contains your clone of the `pet-adoption-service` repo.
-
-    ```shell
-    cd <your-github-workspace>/pet-adoption-service/api
-    json-server -w pet-adoption-db-source.json
-    ```
+1. In a command-line tool, [start your local Pet Adoption Service](../get_started.md#start-your-local-pet-adoption-service), if it is not already running.
 
 1. In another command-line window, run this command to make a `GET` request to list all users enrolled in the service.
 

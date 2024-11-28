@@ -18,12 +18,7 @@ In this tutorial, you will update the adoption status of a pet in the Pet Adopti
 
 ## Update a pet's adoption status
 
-1. In a command-line tool, run the following command to start your local Pet Adoption Service, if it's not already running. Replace `<your-github-workspace>` with the directory that contains your clone of the `pet-adoption-service` repo.
-
-    ```shell
-    cd <your-github-workspace>/pet-adoption-service/api
-    json-server -w pet-adoption-db-source.json
-    ```
+1. In a command-line tool, [start your local Pet Adoption Service](../get_started.md#start-your-local-pet-adoption-service), if it is not already running.
 
 1. In another command-line window, run this command to make a `PATCH` request. In the request body, replace:
 

@@ -23,11 +23,11 @@ In this quickstart, you will:
 
 1. [Set up Git](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git) on your development system.
 
-1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [`pet-adoption-service` repo](https://github.com/syangabq/pet-adoption-service).
+1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [`pet-adoption-service` repository](https://github.com/syangabq/pet-adoption-service).
 
 ## Start your local Pet Adoption Service
 
-1. In a command-line tool, run the following command to start your local Pet Adoption Service. Replace `<your-github-workspace>` with the directory that contains your clone of the `pet-adoption-service` repo.
+1. In a command-line tool, run the following command to start your local Pet Adoption Service. Replace `<your-github-workspace>` with the directory that contains your clone of the `pet-adoption-service` repository.
 
     ```shell
     cd <your-github-workspace>/pet-adoption-service/api
