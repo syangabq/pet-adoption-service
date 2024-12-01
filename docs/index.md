@@ -17,3 +17,6 @@ The Pet Adoption Service API enables you to create applications that help people
 
 [Get started](get_started.md){: .btn .btn-primary .mr-4 }
 [API Reference](api/index.md){: .btn .btn-outline }
+
+![cat](img/cat.png)
+![dog](img/dog.png)
