@@ -1,17 +1,17 @@
 ---
-title: Update user's interest
+title: Update user properties
 parent: User
 nav_order: 4
 ---
 
-# Update user's interest
+# Update user properties
 
 PATCH
 {: .label .label-purple .ml-0 }
 `/users/{id}`
 {: .d-inline-block }
 
-Update the `interested_in` property of the [`user`](index.md) in the service with the specified `id`.
+Update the properties of the [`user`](index.md) in the service with the specified `id`.
 
 ## URL
 
@@ -39,10 +39,14 @@ None
 
 ### Request body
 
-Provide a JSON object with the following properties:
+Provide a JSON object with the properties to update, and their new values. Any of the following properties may be updated:
 
 | Property name | Type | Description |
 | ------------- | ---- | ----------- |
+| `first_name` | string | The user's first name. |
+| `last_name` | string | The user's last name. |
+| `email` | string | The user's email address. |
+| `phone` | string | The user's phone number. |
 | `interested_in` | string | The type of pet the user is interested in adopting. <br/> Can be one of: `cats`, `dogs`, `both` |
 
 #### Example request body

@@ -1,17 +1,17 @@
 ---
-title: Update pet's adoption status
+title: Update pet properties
 parent: Pet
 nav_order: 4
 ---
 
-# Update pet's adoption status
+# Update pet properties
 
 PATCH
 {: .label .label-purple .ml-0 }
 `/pets/{id}`
 {: .d-inline-block }
 
-Update the adoption status of the [`pet`](index.md) in the service with the specified `id`.
+Update the properties of the [`pet`](index.md) in the service with the specified `id`.
 
 ## URL
 
@@ -39,12 +39,18 @@ None
 
 ### Request body
 
-Provide a JSON object with the following properties:
+Provide a JSON object with the properties to update, and their new values. Any of the following properties may be updated:
 
 | Property name | Type | Description |
 | ------------- | ---- | ----------- |
+| `name` | string | The pet's name. |
+| `type` | string | The type of pet. <br/> Can be one of: `cat`, `dog` |
+| `breed` | string | The pet's breed. |
+| `age` | number | The pet's age in months. The service will automatically update the value of this property every month. |
+| `color` | string | The pet's color. |
+| `personality` | string | Description of the pet's personality. |
 | `status` | string | The pet's adoption status. <br/> Can be one of: `adopted`, `available` |
-| `user_id` | number \| null | The `id` property of the [`user`](../user/index.md) resource representing the user that adopted this pet, or `null` if the pet is available for adoption. |
+| `user_id` | number \| null | The `id` property of the [`user`](../user/index.md#resource-properties) resource representing the user that adopted this pet, or `null` if the pet is available for adoption. |
 
 #### Example request body
 

@@ -63,7 +63,7 @@ Sample `pet` resource:
 
 ### PATCH
 
-* [Update pet's adoption status](update_pet_adoption_status.md)
+* [Update pet properties](update_pet_properties.md)
 
 ### DELETE
 
