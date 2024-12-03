@@ -57,7 +57,7 @@ Sample `user` resource:
 
 ### PATCH
 
-* [Update user's interest](update_user_interest.md)
+* [Update user properties](update_user_properties.md)
 
 ### DELETE
 
